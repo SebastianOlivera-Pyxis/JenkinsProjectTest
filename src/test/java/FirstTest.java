@@ -13,7 +13,7 @@ public class FirstTest {
         System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"/drivers/chromedriver.exe");
         WebDriver driver =new ChromeDriver();
 
-        // Launch website
+        // Launch website example
         driver.navigate().to("http://www.google.com/");
 
         // Click on the search text box and send value
