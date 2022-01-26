@@ -22,7 +22,10 @@ public class FirstTest {
         driver.findElement(inputBusqueda)
                 .sendKeys("javatpoint tutorials");
 
+
         // Click on the search button
+        driver.findElement(inputBusqueda).sendKeys(Keys.BACK_SPACE);
+        
         driver.findElement(inputBusqueda).sendKeys(Keys.ENTER);
 
         driver.close();
