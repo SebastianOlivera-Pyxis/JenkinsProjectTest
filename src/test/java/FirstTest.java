@@ -20,7 +20,7 @@ public class FirstTest {
 
         By inputBusqueda = By.xpath("/html/body/div[1]/div[3]/form/div[1]/div[1]/div[1]/div/div[2]/input");
         driver.findElement(inputBusqueda)
-                .sendKeys("javatpoint tutorials");
+                .sendKeys("javatpoint tutorials test");
 
 
         // Click on the search button
